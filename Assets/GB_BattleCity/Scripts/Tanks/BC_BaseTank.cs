@@ -3,6 +3,8 @@ using UnityEngine;
 public class BC_BaseTank : MonoBehaviour
 {
     [Header("Base Tank")]
+    public GameObject explosionPrfb;
+
     public GameObject bulletPrfb;
 
     public Transform shootPoint;
@@ -32,5 +34,15 @@ public class BC_BaseTank : MonoBehaviour
                 this.transform.rotation = Quaternion.Euler(0, 0, 270);
                 break;
         }
+    }
+
+    protected void ExplodeTank()
+    {
+        if (this.explosionPrfb != null)
+        {
+            Instantiate(this.explosionPrfb, this.transform.position, Quaternion.identity);
+        }
+
+        Destroy(this.gameObject);
     }
 }

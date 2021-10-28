@@ -7,6 +7,7 @@ public class BC_PlayerTank : BC_BaseTank, BC_IBulletTarget
 
     private float shootCoolDownTimer = 0;
     private TileBasedMovement movement;
+    private BC_Animation tankAnimator;
 
     private bool shieldActive;
     private float shieldTimer;
@@ -14,6 +15,7 @@ public class BC_PlayerTank : BC_BaseTank, BC_IBulletTarget
     void Start()
     {
         this.movement = this.GetComponent<TileBasedMovement>();
+        this.tankAnimator = this.GetComponent<BC_Animation>();
 
         this.shootCoolDownTimer = this.shootCoolDownTimeOut;
 
@@ -45,7 +47,10 @@ public class BC_PlayerTank : BC_BaseTank, BC_IBulletTarget
         }
 
         if (this.movement.isMoving)
+        {
+            this.tankAnimator.Run();
             return;
+        }
 
         float v = Input.GetAxisRaw("Vertical");
         float h = Input.GetAxisRaw("Horizontal");
@@ -83,6 +88,6 @@ public class BC_PlayerTank : BC_BaseTank, BC_IBulletTarget
             return;
 
         BC_GameManager.current.OnPlayerDeath();
-        Destroy(this.gameObject);
+        this.ExplodeTank();
     }
 }

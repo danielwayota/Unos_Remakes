@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &2599476111768193337
+--- !u!1001 &7972817514843646630
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -8,12 +8,24 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1805381189030556289, guid: e97bfb27eb2dc424fb8147fd61898248, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1.875
+      objectReference: {fileID: 0}
+    - target: {fileID: 1805381189030556289, guid: e97bfb27eb2dc424fb8147fd61898248, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.y
-      value: 1.5
+      value: 1.8125
+      objectReference: {fileID: 0}
+    - target: {fileID: 1805381189030556290, guid: e97bfb27eb2dc424fb8147fd61898248, type: 3}
+      propertyPath: speed
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1805381189030556291, guid: e97bfb27eb2dc424fb8147fd61898248, type: 3}
+      propertyPath: health
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 1805381189030556292, guid: e97bfb27eb2dc424fb8147fd61898248, type: 3}
       propertyPath: m_Name
-      value: EnemyTank_2
+      value: EnemyTank_3
       objectReference: {fileID: 0}
     - target: {fileID: 1805381189030556350, guid: e97bfb27eb2dc424fb8147fd61898248, type: 3}
       propertyPath: m_RootOrder
@@ -62,14 +74,14 @@ PrefabInstance:
     - target: {fileID: 1805381189030556351, guid: e97bfb27eb2dc424fb8147fd61898248, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -642716187465927495, guid: cb2e671e292e07645abb574b24bc238c, type: 3}
+      objectReference: {fileID: -4487960965905131419, guid: cb2e671e292e07645abb574b24bc238c, type: 3}
     - target: {fileID: 2595059145559570963, guid: e97bfb27eb2dc424fb8147fd61898248, type: 3}
       propertyPath: frames.Array.data[0]
       value: 
-      objectReference: {fileID: -642716187465927495, guid: cb2e671e292e07645abb574b24bc238c, type: 3}
+      objectReference: {fileID: -4487960965905131419, guid: cb2e671e292e07645abb574b24bc238c, type: 3}
     - target: {fileID: 2595059145559570963, guid: e97bfb27eb2dc424fb8147fd61898248, type: 3}
       propertyPath: frames.Array.data[1]
       value: 
-      objectReference: {fileID: -8962976473934385715, guid: cb2e671e292e07645abb574b24bc238c, type: 3}
+      objectReference: {fileID: 2959962359445430579, guid: cb2e671e292e07645abb574b24bc238c, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e97bfb27eb2dc424fb8147fd61898248, type: 3}

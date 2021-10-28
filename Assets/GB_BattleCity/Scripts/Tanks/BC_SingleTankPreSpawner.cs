@@ -3,10 +3,11 @@ using UnityEngine;
 public class BC_SingleTankPreSpawner : MonoBehaviour
 {
     public GameObject tankPrefab;
+    public float time = 1.5f;
 
     void Start()
     {
-        Invoke("SpawnAndDestroy", 1.5f);
+        Invoke("SpawnAndDestroy", this.time);
     }
 
     private void SpawnAndDestroy()

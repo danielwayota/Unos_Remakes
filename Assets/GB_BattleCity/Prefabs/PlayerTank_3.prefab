@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &8253328467992183741
+--- !u!1001 &3346649779727194294
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -10,22 +10,26 @@ PrefabInstance:
     - target: {fileID: -6091288233293756680, guid: 9485cc29a73adf644a68c24b6ec9152f, type: 3}
       propertyPath: frames.Array.data[0]
       value: 
-      objectReference: {fileID: -8671957217422616585, guid: cb2e671e292e07645abb574b24bc238c, type: 3}
+      objectReference: {fileID: 8505529094874852239, guid: cb2e671e292e07645abb574b24bc238c, type: 3}
     - target: {fileID: -6091288233293756680, guid: 9485cc29a73adf644a68c24b6ec9152f, type: 3}
       propertyPath: frames.Array.data[1]
       value: 
-      objectReference: {fileID: 4625871360872975626, guid: cb2e671e292e07645abb574b24bc238c, type: 3}
+      objectReference: {fileID: 2990999746111394430, guid: cb2e671e292e07645abb574b24bc238c, type: 3}
+    - target: {fileID: 3708678121429433388, guid: 9485cc29a73adf644a68c24b6ec9152f, type: 3}
+      propertyPath: shootCoolDownTimeOut
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 3708678121429433389, guid: 9485cc29a73adf644a68c24b6ec9152f, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
-      value: 1.5
+      value: 1.75
       objectReference: {fileID: 0}
     - target: {fileID: 3708678121429433389, guid: 9485cc29a73adf644a68c24b6ec9152f, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.y
-      value: 1.8125
+      value: 1.6875
       objectReference: {fileID: 0}
     - target: {fileID: 3708678121429433390, guid: 9485cc29a73adf644a68c24b6ec9152f, type: 3}
       propertyPath: m_Name
-      value: PlayerTank_2
+      value: PlayerTank_3
       objectReference: {fileID: 0}
     - target: {fileID: 3708678121429433391, guid: 9485cc29a73adf644a68c24b6ec9152f, type: 3}
       propertyPath: speed
@@ -78,6 +82,6 @@ PrefabInstance:
     - target: {fileID: 3708678121429433395, guid: 9485cc29a73adf644a68c24b6ec9152f, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -8671957217422616585, guid: cb2e671e292e07645abb574b24bc238c, type: 3}
+      objectReference: {fileID: 8505529094874852239, guid: cb2e671e292e07645abb574b24bc238c, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9485cc29a73adf644a68c24b6ec9152f, type: 3}

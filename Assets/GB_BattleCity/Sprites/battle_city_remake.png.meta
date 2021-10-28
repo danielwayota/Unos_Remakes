@@ -52,7 +52,85 @@ TextureImporter:
     second: BC_Base
   - first:
       213: -1733575756462401924
-    second: BC_PlayerTank_1
+    second: BC_PlayerTank_A_0
+  - first:
+      213: -4843043926142621483
+    second: BC_PlayerTank_A_1
+  - first:
+      213: -8671957217422616585
+    second: BC_PlayerTank_B_0
+  - first:
+      213: 4625871360872975626
+    second: BC_PlayerTank_B_1
+  - first:
+      213: 8505529094874852239
+    second: BC_PlayerTank_C_0
+  - first:
+      213: 2990999746111394430
+    second: BC_PlayerTank_C_1
+  - first:
+      213: -4164050549835382577
+    second: BC_EnemyTank_A_0
+  - first:
+      213: -3336971376345522116
+    second: BC_EnemyTank_A_1
+  - first:
+      213: -642716187465927495
+    second: BC_EnemyTank_B_0
+  - first:
+      213: -8962976473934385715
+    second: BC_EnemyTank_B_1
+  - first:
+      213: -4487960965905131419
+    second: BC_EnemyTank_C_0
+  - first:
+      213: 2959962359445430579
+    second: BC_EnemyTank_C_1
+  - first:
+      213: 3437432727895758656
+    second: BC_Bullet
+  - first:
+      213: 3628797025406169442
+    second: BC_Smoke_A
+  - first:
+      213: 73467210554524228
+    second: BC_Smoke_B
+  - first:
+      213: -1278470837996812822
+    second: BC_Smoke_C
+  - first:
+      213: -6251147921413323423
+    second: BC_Smoke_D
+  - first:
+      213: 601097780199195702
+    second: BC_Smoke_E
+  - first:
+      213: 1712317315545710298
+    second: BC_PowerUp_Tank
+  - first:
+      213: -1905445657597300904
+    second: BC_PowerUp_OneUp
+  - first:
+      213: -7801108077083690926
+    second: BC_PowerUp_Shield
+  - first:
+      213: -2988822333103610251
+    second: BC_PowerUp_Freeze
+  - first:
+      213: 435775232139131388
+    second: BC_PowerUp_Bomb
+  - first:
+      213: 6064918437830028546
+    second: BC_SpawnSkull
+  - first:
+      213: 8440014819671705443
+    second: BC_Shield_1
+  - first:
+      213: -5658939346772622852
+    second: BC_Shield_2
+  - first:
+      213: -2428823893651949310
+    second: BC_TopStuff_1
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -490,7 +568,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BC_PlayerTank_1
+      name: BC_PlayerTank_A_0
       rect:
         serializedVersion: 2
         x: 3
@@ -498,7 +576,7 @@ TextureImporter:
         width: 26
         height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -506,6 +584,552 @@ TextureImporter:
       bones: []
       spriteID: c7654dcc80a11f7e0800000000000000
       internalID: -1733575756462401924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BC_PlayerTank_A_1
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 292
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d8e7ae653d0accb0800000000000000
+      internalID: -4843043926142621483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BC_PlayerTank_B_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 257
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f7d3245bd407a780800000000000000
+      internalID: -8671957217422616585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BC_PlayerTank_B_1
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 257
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0d8c796e75623040800000000000000
+      internalID: 4625871360872975626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BC_PlayerTank_C_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 228
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8be3c6c5a5b90670800000000000000
+      internalID: 8505529094874852239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BC_PlayerTank_C_1
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 228
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e72d04e0c6a228920800000000000000
+      internalID: 2990999746111394430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BC_EnemyTank_A_0
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 292
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc0ca4646125636c0800000000000000
+      internalID: -4164050549835382577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BC_EnemyTank_A_1
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 292
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3067479632b0b1d0800000000000000
+      internalID: -3336971376345522116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BC_EnemyTank_B_0
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 260
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b433b2680d9417f0800000000000000
+      internalID: -642716187465927495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BC_EnemyTank_B_1
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 260
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcd25f4826c1d9380800000000000000
+      internalID: -8962976473934385715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BC_EnemyTank_C_0
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 225
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 568d76d974f87b1c0800000000000000
+      internalID: -4487960965905131419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BC_EnemyTank_C_1
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 225
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 331a5475516e31920800000000000000
+      internalID: 2959962359445430579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BC_Bullet
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 308
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 047578d8ad634bf20800000000000000
+      internalID: 3437432727895758656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BC_Smoke_A
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 289
+        width: 3
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 261345d1ba31c5230800000000000000
+      internalID: 3628797025406169442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BC_Smoke_B
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 288
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 442cdbbe902050100800000000000000
+      internalID: 73467210554524228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BC_Smoke_C
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 297
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae50185eb85f14ee0800000000000000
+      internalID: -1278470837996812822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BC_Smoke_D
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 304
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 165ccb1e5167f39a0800000000000000
+      internalID: -6251147921413323423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BC_Smoke_E
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 294
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6348c001f37875800800000000000000
+      internalID: 601097780199195702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BC_PowerUp_Tank
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 210
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ade3ad7b68f53c710800000000000000
+      internalID: 1712317315545710298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BC_PowerUp_OneUp
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 210
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85f2a18154f7e85e0800000000000000
+      internalID: -1905445657597300904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BC_PowerUp_Shield
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 210
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 258fef23985ecb390800000000000000
+      internalID: -7801108077083690926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BC_PowerUp_Freeze
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 178
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 576ea9a6ce19586d0800000000000000
+      internalID: -2988822333103610251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BC_PowerUp_Bomb
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 178
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf9f099c34f2c0600800000000000000
+      internalID: 435775232139131388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BC_SpawnSkull
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 307
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20d63969f2bea2450800000000000000
+      internalID: 6064918437830028546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BC_Shield_1
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 241
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3678099e2c4f02570800000000000000
+      internalID: 8440014819671705443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BC_Shield_2
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 241
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf1032e75a86771b0800000000000000
+      internalID: -5658939346772622852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BC_TopStuff_1
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 209f4e489851b4ed0800000000000000
+      internalID: -2428823893651949310
       vertices: []
       indices: 
       edges: []

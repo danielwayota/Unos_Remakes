@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 3708678121429433389}
   - component: {fileID: 3708678121429433388}
   - component: {fileID: 3708678121429433391}
+  - component: {fileID: -6091288233293756680}
   m_Layer: 8
   m_Name: PlayerTank_1
   m_TagString: Untagged
@@ -80,7 +81,7 @@ SpriteRenderer:
   m_SortingLayerID: 143162657
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7464320260161675501, guid: d58ed644fb9a2624e839bf2b2b154335, type: 3}
+  m_Sprite: {fileID: -1733575756462401924, guid: cb2e671e292e07645abb574b24bc238c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -129,7 +130,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.75, y: 1.875}
+    oldSize: {x: 1.625, y: 1.5625}
     newSize: {x: 1.75, y: 1.625}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -150,6 +151,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42e0d695110d4dd428a033902125d3e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  explosionPrfb: {fileID: 6600787980115393242, guid: 898a8bf730b794d4b969477c123dfb30, type: 3}
   bulletPrfb: {fileID: 5958200860201825685, guid: db5afa25e5c155d4fb6b2bdbf67b675e, type: 3}
   shootPoint: {fileID: 3708678123038451578}
   shootCoolDownTimeOut: 1
@@ -176,6 +178,23 @@ MonoBehaviour:
   obstaclesMask:
     serializedVersion: 2
     m_Bits: 2039
+--- !u!114 &-6091288233293756680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3708678121429433390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c6f015e8d364af45b4f7690d433d507, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  frames:
+  - {fileID: -1733575756462401924, guid: cb2e671e292e07645abb574b24bc238c, type: 3}
+  - {fileID: -4843043926142621483, guid: cb2e671e292e07645abb574b24bc238c, type: 3}
+  frameTime: 0.1
+  autoRun: 0
 --- !u!1 &3708678122383419162
 GameObject:
   m_ObjectHideFlags: 0
@@ -306,6 +325,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8317492888614189780}
   - component: {fileID: 5349154094629013251}
+  - component: {fileID: 8148869741344734393}
   m_Layer: 8
   m_Name: Shield
   m_TagString: Untagged
@@ -367,7 +387,7 @@ SpriteRenderer:
   m_SortingLayerID: 143162657
   m_SortingLayer: 2
   m_SortingOrder: 1
-  m_Sprite: {fileID: 9155679589895237380, guid: d58ed644fb9a2624e839bf2b2b154335, type: 3}
+  m_Sprite: {fileID: 8440014819671705443, guid: cb2e671e292e07645abb574b24bc238c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0.45490196}
   m_FlipX: 0
   m_FlipY: 0
@@ -378,3 +398,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &8148869741344734393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4351670497543393354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c6f015e8d364af45b4f7690d433d507, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  frames:
+  - {fileID: 8440014819671705443, guid: cb2e671e292e07645abb574b24bc238c, type: 3}
+  - {fileID: -5658939346772622852, guid: cb2e671e292e07645abb574b24bc238c, type: 3}
+  frameTime: 0.05
+  autoRun: 1

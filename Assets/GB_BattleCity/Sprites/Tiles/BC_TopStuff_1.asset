@@ -9,10 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8e5483181c28e624e9a8eacb0ef6706e, type: 3}
-  m_Name: BorderWalls
+  m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: BC_TopStuff_1
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: 3574332231328560583, guid: d58ed644fb9a2624e839bf2b2b154335, type: 3}
+  m_Sprite: {fileID: -2428823893651949310, guid: cb2e671e292e07645abb574b24bc238c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
@@ -33,5 +33,4 @@ MonoBehaviour:
     e33: 1
   m_InstancedGameObject: {fileID: 0}
   m_Flags: 1
-  m_ColliderType: 2
-  toughness: 2
+  m_ColliderType: 1

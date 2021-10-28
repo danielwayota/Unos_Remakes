@@ -4,6 +4,7 @@ using UnityEngine;
 public class BC_Bullet : MonoBehaviour
 {
     public float speed = 2f;
+    public GameObject explosionPrefb;
 
     void Start()
     {
@@ -17,6 +18,11 @@ public class BC_Bullet : MonoBehaviour
         if (target != null)
         {
             target.PerdoneUstedLeHeGolpeado(this.transform.position);
+        }
+
+        if (this.explosionPrefb != null)
+        {
+            Instantiate(this.explosionPrefb, this.transform.position, Quaternion.identity);
         }
 
         Destroy(this.gameObject);

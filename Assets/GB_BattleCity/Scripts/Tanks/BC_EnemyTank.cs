@@ -11,12 +11,16 @@ public class BC_EnemyTank : BC_BaseTank, BC_IBulletTarget
     private TileBasedMovement movement;
     private float pauseTimer;
 
+    private BC_Animation tankAnimator;
+
     // Start is called before the first frame update
     void Start()
     {
         this.pauseTimer = 0;
 
         this.movement = this.GetComponent<TileBasedMovement>();
+        this.tankAnimator = this.GetComponent<BC_Animation>();
+
         StartCoroutine(this.ShootingRoutine());
 
         BC_GameManager.current.RegisterEnemy(this);
@@ -32,7 +36,10 @@ public class BC_EnemyTank : BC_BaseTank, BC_IBulletTarget
         }
 
         if (this.movement.isMoving)
+        {
+            this.tankAnimator.Run();
             return;
+        }
 
         if (this.movement.isColliding)
         {
@@ -87,7 +94,7 @@ public class BC_EnemyTank : BC_BaseTank, BC_IBulletTarget
 
             BC_GameManager.current.OnEnemyDeath(this);
 
-            Destroy(this.gameObject);
+            this.ExplodeTank();
         }
     }
 }

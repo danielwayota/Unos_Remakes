@@ -44,6 +44,7 @@ GameObject:
   - component: {fileID: 1805381189030556289}
   - component: {fileID: 1805381189030556290}
   - component: {fileID: 1805381189030556291}
+  - component: {fileID: 2595059145559570963}
   m_Layer: 9
   m_Name: EnemyTank_1
   m_TagString: Untagged
@@ -109,7 +110,7 @@ SpriteRenderer:
   m_SortingLayerID: 143162657
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: 11991658999449299, guid: d58ed644fb9a2624e839bf2b2b154335, type: 3}
+  m_Sprite: {fileID: -4164050549835382577, guid: cb2e671e292e07645abb574b24bc238c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -158,7 +159,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.75, y: 1.625}
+    oldSize: {x: 1.625, y: 1.375}
     newSize: {x: 1.75, y: 1.625}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -201,11 +202,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eff875ebf09183a4186fe325355fd5de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  explosionPrfb: {fileID: 6600787980115393242, guid: 898a8bf730b794d4b969477c123dfb30, type: 3}
   bulletPrfb: {fileID: 5958200860201825685, guid: 08983c4b9bf685340ae1663fed1c270d, type: 3}
   shootPoint: {fileID: 1805381189218600795}
   shootCoolDownTimeOut: 3
   health: 1
-  powerUpDropChance: 0.5
+  powerUpDropChance: 0.2
+--- !u!114 &2595059145559570963
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1805381189030556292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c6f015e8d364af45b4f7690d433d507, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  frames:
+  - {fileID: -4164050549835382577, guid: cb2e671e292e07645abb574b24bc238c, type: 3}
+  - {fileID: -3336971376345522116, guid: cb2e671e292e07645abb574b24bc238c, type: 3}
+  frameTime: 0.1
 --- !u!1 &1805381189066636888
 GameObject:
   m_ObjectHideFlags: 0

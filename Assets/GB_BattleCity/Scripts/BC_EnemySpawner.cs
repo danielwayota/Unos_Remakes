@@ -57,6 +57,12 @@ public class BC_EnemySpawner : MonoBehaviour
                 continue;
             }
 
+            if (BC_GameManager.current.enemies.Count > 3)
+            {
+                yield return new WaitForSeconds(this.minWaitTime);
+                continue;
+            }
+
             var point = this.spawnPoints[Random.Range(0, this.spawnPoints.Length)];
 
             // Se comprueba si hay un obstáculo en este punto
@@ -74,8 +80,6 @@ public class BC_EnemySpawner : MonoBehaviour
             float time = Random.Range(this.minWaitTime, this.maxWaitTime);
             yield return new WaitForSeconds(time);
         }
-
-        // TODO: Ir al siguiente nivel o terminar el juego.
     }
 
     private void OnDrawGizmos()
