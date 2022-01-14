@@ -15,9 +15,17 @@ public class TP_InfiniteBG : MonoBehaviour
 
     IEnumerator UpdateRutine()
     {
-        while (true)
+        bool running = true;
+
+        while (running)
         {
             yield return new WaitForSeconds(0.5f);
+
+            if (this.target == null)
+            {
+                running = false;
+                continue;
+            }
 
             var center = this.transform.position;
             var targetPos = this.target.position;

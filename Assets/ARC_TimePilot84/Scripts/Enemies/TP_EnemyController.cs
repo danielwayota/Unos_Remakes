@@ -5,6 +5,8 @@ public class TP_EnemyController : MonoBehaviour
 {
     public TP_BulletTypeEnum type;
 
+    public GameObject destroyEffect;
+
     [Header("Movement")]
     public float forwardMovementSpeed = 4f;
 
@@ -58,9 +60,19 @@ public class TP_EnemyController : MonoBehaviour
         }
     }
 
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        var player = other.gameObject.GetComponent<TP_PlayerShip>();
+        if (player != null)
+        {
+            player.Die();
+        }
+    }
+
     public void Die()
     {
-        // TODO: Partículas o algo
+        Instantiate(this.destroyEffect, this.transform.position, Quaternion.identity);
+
         Destroy(this.gameObject);
     }
 }
